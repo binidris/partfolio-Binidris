@@ -1,0 +1,146 @@
+body {
+    margin: 0 0;
+}
+
+.mynav a {
+    text-decoration: none;
+    color: white;
+}
+
+.navigation {
+    background-color: #000000;
+    color: white;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+}
+
+.mynav {
+    display: flex;
+    justify-content: center;
+}
+
+.mynav>div {
+    margin: 0 35px;
+    text-align: center;
+    padding-top: 12px;
+}
+
+.introduction {
+    background-color: #2d2d2d;
+    height: 100vh;
+}
+
+.photo {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.zakariyye {
+    color: white;
+    text-align: center;
+}
+
+.section {
+    margin: 0 20px;
+}
+
+.section-header {
+    text-align: center;
+}
+
+.skill-flex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.skill {
+    box-shadow: 0 4px 8px 0 rgba( 0.2, 0.4, 0.6, 0.8);
+    width: 200px;
+    text-align: center;
+    margin: 15px;
+}
+
+.form-container {
+    margin: 0 30px;
+}
+
+.project-flex {
+    display: flex;
+    flex-flow: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.project {
+    flex: 50%;
+    max-width: 100%;
+}
+
+input,
+textarea {
+    padding: 12px;
+    width: 100%;
+    border: 4px solid #ccc;
+    border-radius: 5px;
+    border-style: solid;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+input[type=submit] {
+    width: auto;
+    background-color: #4caf50;
+    color: #ffffff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #450a49;
+}
+
+.top-footer {
+    background-color: #2d2d2d;
+}
+
+.top-div {
+    padding: 50px;
+    color: #bec6d5;
+    text-align: center;
+}
+
+.bottom-div {
+    color: #ffffff;
+    background-color: #000000;
+    text-align: center;
+}
+
+.bottom-div p {
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .project-flex {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+}
